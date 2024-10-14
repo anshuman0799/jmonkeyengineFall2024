@@ -496,7 +496,7 @@ public class AndroidHarnessFragment extends Fragment implements
 
             Drawable drawable = getResources().getDrawable(splashPicID);
             if (drawable instanceof NinePatchDrawable) {
-                splashImageView.setBackgroundDrawable(drawable);
+                splashImageView.setBackground(drawable);
             } else {
                 splashImageView.setImageResource(splashPicID);
             }
